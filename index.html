@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agencia SEO Argentina desde 1989 | Conde Graphics</title>
+<meta name="description" content="Que te encuentren primero, que te elijan después. Agencia SEO en Buenos Aires desde 1989: diagnóstico de 12 puntos en 48 horas, sin cargo.">
+<meta name="robots" content="noindex, nofollow">
+<!-- BETA landing2 · quitar el noindex cuando reemplace la home definitiva -->
+<meta property="og:title" content="Agencia SEO Argentina desde 1989 | Conde Graphics">
+<meta property="og:description" content="Que te encuentren primero. Que te elijan después. Diagnóstico de 12 puntos en 48 horas, sin cargo.">
+<meta property="og:image" content="https://www.condegraphics.com/img/og-conde-graphics.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="https://www.condegraphics.com/img/favicon/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --blue-day:#0073CB;
+  --blue-night:#00215E;
+  --blue-night-2:#001843;
+  --blue-ice:#EAF4FC;
+  --blue-pale:#F4F8FC;
+  --gray-metal:#53565A;
+  --gray-line:#D9E0E7;
+  --warm-white:#FCFCFB;
+  --white:#fff;
+  --ink:#111820;
+  --max:1240px;
+  --gutter:clamp(1.35rem,4.5vw,4rem);
+  --f:'Merriweather Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --t1:clamp(2.5rem,6.4vw,5.2rem);
+  --t2:clamp(1.85rem,3.9vw,3.15rem);
+  --t3:clamp(1.15rem,1.9vw,1.45rem);
+  --s:clamp(4rem,9vw,7.5rem);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body,h1,h2,h3,h4,p,ul,ol,dl,figure{margin:0}
+ul,ol{padding:0;list-style:none}
+img{display:block;max-width:100%}
+body{background:var(--warm-white);color:var(--ink);font-family:var(--f);font-weight:300;font-size:17px;line-height:1.72;-webkit-font-smoothing:antialiased}
+::selection{background:var(--blue-day);color:#fff}
+
+.wrap{width:min(100% - var(--gutter)*2,var(--max));margin-inline:auto}
+.eyebrow{color:var(--blue-day);font-size:.71rem;letter-spacing:.2em;font-weight:400;text-transform:uppercase;line-height:1.5;margin:0 0 1.25rem}
+.eyebrow.on-dark{color:#5EA9E8}
+h1,h2,h3,h4{font-weight:800;line-height:1.08;letter-spacing:-.015em}
+h2{font-size:var(--t2);line-height:1.12;letter-spacing:-.02em;max-width:22ch}
+h3{font-size:var(--t3);line-height:1.28;letter-spacing:-.01em}
+.lead{font-size:clamp(1.06rem,1.6vw,1.28rem);line-height:1.62;color:var(--gray-metal);max-width:60ch}
+.on-dark .lead,.dark .lead{color:#C6D6E6}
+p{max-width:66ch}
+.accent{color:var(--blue-day)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;
+  font-family:var(--f);font-weight:400;font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;
+  padding:1.05rem 1.6rem;border:1px solid transparent;border-radius:0;text-decoration:none;cursor:pointer;
+  transition:background .22s,color .22s,border-color .22s,transform .22s;min-height:3.4rem;text-align:center;line-height:1.25}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--blue-day);color:#fff;box-shadow:0 12px 26px rgba(0,115,203,.28)}
+.btn-primary:hover{background:#0063b0}
+.btn-ghost{background:transparent;color:var(--blue-day);border-color:var(--blue-day)}
+.btn-ghost:hover{background:var(--blue-day);color:#fff}
+.btn-light{background:#fff;color:var(--blue-night);box-shadow:0 12px 26px rgba(0,33,94,.18)}
+.btn-outline-light{background:transparent;color:#fff;border-color:rgba(255,255,255,.55)}
+.btn-outline-light:hover{background:#fff;color:var(--blue-night);border-color:#fff}
+.btn .ar{font-size:1.05em;transition:transform .22s}
+.btn:hover .ar{transform:translateX(3px)}
+.cta-row{display:flex;flex-wrap:wrap;gap:.85rem;margin-top:2.2rem}
+.cta-row .btn{flex:0 1 auto}
+
+/* ---------- header ---------- */
+.site-head{position:sticky;top:0;z-index:60;background:rgba(0,33,94,.96);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.1)}
+.head-in{display:flex;align-items:center;justify-content:space-between;gap:2rem;padding:.85rem 0}
+.brand img{height:44px;width:auto}
+.nav{display:flex;align-items:center;gap:2rem}
+.nav a{color:#DCE8F3;text-decoration:none;font-size:.79rem;letter-spacing:.1em;text-transform:uppercase;font-weight:300;padding:.4rem 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s}
+.nav a:hover{color:#fff;border-bottom-color:var(--blue-day)}
+.head-cta{font-size:.71rem;padding:.8rem 1.15rem;min-height:2.9rem}
+@media(max-width:960px){.nav{display:none}}
+@media(max-width:600px){.brand img{height:36px}}
+
+/* ---------- hero ---------- */
+.hero{position:relative;background:var(--blue-night);color:#fff;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background-image:url('https://www.condegraphics.com/img/hero-2026-visual.jpg');background-size:cover;background-position:center right;opacity:.55}
+.hero-ov{position:absolute;inset:0;background:linear-gradient(100deg,rgba(0,33,94,.96) 0%,rgba(0,33,94,.86) 42%,rgba(0,33,94,.42) 78%,rgba(0,33,94,.3) 100%)}
+.hero-in{position:relative;padding:clamp(4.2rem,9vw,7.6rem) 0 clamp(3rem,6vw,5rem)}
+.hero h1{font-size:var(--t1);line-height:1.02;letter-spacing:-.035em;margin:0 0 1.9rem}
+.hero h1 em{font-style:normal;color:#4FA8F0;display:block}
+.hero-lead{font-size:clamp(1.06rem,1.75vw,1.32rem);line-height:1.6;color:#D3E2F0;max-width:54ch;margin:0 0 1rem}
+.hero-note{font-size:.93rem;color:#93AFC9;max-width:52ch;margin:0}
+.hero-note strong{color:#fff;font-weight:400}
+
+/* proof strip */
+.proof{position:relative;border-top:1px solid rgba(255,255,255,.16);background:rgba(0,24,67,.55)}
+.proof ul{display:grid;grid-template-columns:repeat(4,1fr)}
+.proof li{padding:1.5rem 1.4rem 1.5rem 0;border-right:1px solid rgba(255,255,255,.12)}
+.proof li:last-child{border-right:0}
+.proof b{display:block;font-size:1.32rem;font-weight:800;color:#fff;letter-spacing:-.02em;margin-bottom:.2rem}
+.proof span{font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;color:#8FA9C2;line-height:1.5;display:block}
+@media(max-width:760px){
+  .proof ul{grid-template-columns:1fr 1fr}
+  .proof li:nth-child(2){border-right:0}
+  .proof li:nth-child(1),.proof li:nth-child(2){border-bottom:1px solid rgba(255,255,255,.12)}
+}
+
+/* ---------- generic section ---------- */
+.sec{padding:var(--s) 0}
+.sec-white{background:var(--white)}
+.sec-pale{background:var(--blue-pale)}
+.sec-ice{background:var(--blue-ice)}
+.dark{background:var(--blue-night);color:#fff}
+.sec-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.85fr);gap:clamp(1.5rem,4vw,4rem);align-items:end;margin-bottom:clamp(2.4rem,4.5vw,4rem)}
+.sec-head .lead{margin-top:1.1rem}
+@media(max-width:880px){.sec-head{grid-template-columns:1fr;gap:1.2rem}}
+
+/* ---------- problem ---------- */
+.prob-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--gray-line);margin-top:clamp(2rem,4vw,3rem)}
+.prob{padding:2rem 1.8rem 2rem 0;border-right:1px solid var(--gray-line)}
+.prob:last-child{border-right:0}
+.prob .n{font-size:.72rem;letter-spacing:.16em;color:var(--blue-day);display:block;margin-bottom:1rem}
+.prob h3{margin:0 0 .7rem}
+.prob p{font-size:.95rem;color:var(--gray-metal);line-height:1.65;margin:0}
+@media(max-width:820px){
+  .prob-grid{grid-template-columns:1fr}
+  .prob{border-right:0;border-bottom:1px solid var(--gray-line);padding:1.5rem 0}
+  .prob:last-child{border-bottom:0}
+}
+
+/* ---------- services ---------- */
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--gray-line);border:1px solid var(--gray-line)}
+.svc-card{background:#fff;padding:2.2rem 1.9rem;display:flex;flex-direction:column}
+.svc-card .tag{font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--blue-day);margin-bottom:1rem}
+.svc-card h3{margin:0 0 .9rem;font-size:1.32rem}
+.svc-card p{font-size:.94rem;color:var(--gray-metal);line-height:1.62;margin:0 0 1.4rem}
+.svc-card ul{margin:0 0 1.8rem;border-top:1px solid var(--gray-line)}
+.svc-card li{font-size:.87rem;padding:.6rem 0;border-bottom:1px solid var(--gray-line);color:var(--ink)}
+.svc-card .link{margin-top:auto;font-size:.73rem;letter-spacing:.12em;text-transform:uppercase;color:var(--blue-day);text-decoration:none;font-weight:400;border-bottom:1px solid transparent;padding-bottom:2px;align-self:flex-start}
+.svc-card .link:hover{border-bottom-color:var(--blue-day)}
+.svc-card.feat{background:var(--blue-night);color:#fff}
+.svc-card.feat .tag{color:#5EA9E8}
+.svc-card.feat p{color:#C6D6E6}
+.svc-card.feat li{border-color:rgba(255,255,255,.16);color:#E4EEF6}
+.svc-card.feat ul{border-color:rgba(255,255,255,.16)}
+.svc-card.feat .link{color:#5EA9E8}
+@media(max-width:920px){.svc{grid-template-columns:1fr}}
+
+/* ---------- model ---------- */
+.mod{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.mod-media{position:relative}
+.mod-media img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover}
+.mod-steps{margin-top:2.2rem;border-top:1px solid rgba(255,255,255,.18)}
+.mod-step{display:grid;grid-template-columns:auto 1fr;gap:1.5rem;padding:1.45rem 0;border-bottom:1px solid rgba(255,255,255,.18)}
+.mod-step .k{font-size:.76rem;letter-spacing:.14em;color:#5EA9E8;padding-top:.3rem}
+.mod-step h3{margin:0 0 .35rem;color:#fff}
+.mod-step p{margin:0;font-size:.93rem;line-height:1.62;color:#B9CCDE;max-width:44ch}
+.mod-close{margin-top:2rem;font-size:.95rem;color:#D3E2F0;border-left:2px solid var(--blue-day);padding-left:1.2rem;max-width:48ch}
+@media(max-width:880px){.mod{grid-template-columns:1fr}.mod-media{order:2}.mod-media img{aspect-ratio:16/10}}
+
+/* ---------- authorithy ---------- */
+.auth-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(2rem,5vw,4.5rem);align-items:start}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--gray-line);border:1px solid var(--gray-line);margin-top:2.2rem}
+.stat{background:var(--warm-white);padding:1.7rem 1.5rem}
+.stat b{display:block;font-size:2.35rem;font-weight:800;color:var(--blue-night);letter-spacing:-.03em;line-height:1;margin-bottom:.45rem}
+.stat span{font-size:.73rem;letter-spacing:.11em;text-transform:uppercase;color:var(--gray-metal);line-height:1.5;display:block}
+.quote{border-top:3px solid var(--blue-day);padding-top:1.6rem;margin-top:0}
+.quote p{font-size:clamp(1.2rem,2.1vw,1.62rem);line-height:1.45;font-weight:400;color:var(--blue-night);letter-spacing:-.01em;margin:0 0 1.2rem;max-width:34ch}
+.quote cite{font-style:normal;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gray-metal)}
+.quote cite b{display:block;color:var(--ink);font-weight:700;letter-spacing:.04em;margin-bottom:.15rem}
+@media(max-width:880px){.auth-grid{grid-template-columns:1fr}}
+
+/* ---------- process ---------- */
+.proc{border-top:1px solid var(--gray-line);margin-top:clamp(2rem,4vw,3rem)}
+.proc li{display:grid;grid-template-columns:5.5rem 1fr auto;gap:1.5rem;align-items:start;padding:1.7rem 0;border-bottom:1px solid var(--gray-line)}
+.proc .num{font-size:.74rem;letter-spacing:.14em;color:var(--blue-day);padding-top:.35rem}
+.proc h3{margin:0 0 .4rem;font-size:1.22rem}
+.proc p{margin:0;font-size:.94rem;color:var(--gray-metal);line-height:1.62;max-width:56ch}
+.proc .when{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--blue-night);font-weight:400;white-space:nowrap;padding-top:.4rem}
+@media(max-width:760px){
+  .proc li{grid-template-columns:1fr;gap:.5rem}
+  .proc .when{padding-top:0}
+}
+
+/* ---------- offer ---------- */
+.offer{background:var(--blue-night);color:#fff;border:1px solid var(--blue-night-2);display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(2rem,5vw,4rem);padding:clamp(2.2rem,4.5vw,3.6rem)}
+.offer h2{color:#fff;max-width:18ch}
+.offer .lead{color:#C6D6E6;margin-top:1.2rem}
+.offer .price{display:inline-block;margin-top:1.8rem;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:#5EA9E8;border:1px solid rgba(94,169,232,.45);padding:.5rem .9rem}
+.deliv{border-top:1px solid rgba(255,255,255,.18)}
+.deliv li{padding:1rem 0 1rem 1.9rem;border-bottom:1px solid rgba(255,255,255,.18);position:relative;font-size:.95rem;color:#DCE8F2;line-height:1.55}
+.deliv li:last-child{border-bottom:0}
+.deliv li::before{content:'';position:absolute;left:.15rem;top:1.5rem;width:.42rem;height:.42rem;border-right:1.5px solid var(--blue-day);border-bottom:1.5px solid var(--blue-day);transform:rotate(45deg)}
+.deliv li b{color:#fff;font-weight:400}
+.offer-foot{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.18);padding-top:1.4rem;font-size:.86rem;color:#9FB8CE;line-height:1.6;margin:0}
+.offer-foot strong{color:#fff;font-weight:400}
+@media(max-width:900px){.offer{grid-template-columns:1fr}}
+
+/* ---------- faq ---------- */
+.faq{border-top:1px solid var(--gray-line);margin-top:clamp(2rem,4vw,3rem)}
+.faq details{border-bottom:1px solid var(--gray-line)}
+.faq summary{cursor:pointer;padding:1.4rem 2.6rem 1.4rem 0;font-weight:700;font-size:1.02rem;line-height:1.45;position:relative;list-style:none;color:var(--ink);transition:color .2s}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:hover{color:var(--blue-day)}
+.faq summary::after{content:'';position:absolute;right:.4rem;top:1.85rem;width:.5rem;height:.5rem;border-right:1.5px solid var(--blue-day);border-bottom:1.5px solid var(--blue-day);transform:rotate(45deg);transition:transform .25s}
+.faq details[open] summary::after{transform:rotate(-135deg);top:1.95rem}
+.faq .a{padding:0 3rem 1.6rem 0;font-size:.95rem;color:var(--gray-metal);line-height:1.68;max-width:72ch}
+.faq .a p{margin:0 0 .8rem}
+.faq .a p:last-child{margin:0}
+
+/* ---------- contact ---------- */
+.contact{background:var(--warm-white)}
+.c-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(2rem,5vw,4.5rem);align-items:start}
+.c-alt{margin-top:2.4rem;border-top:1px solid var(--gray-line)}
+.c-alt li{display:grid;grid-template-columns:6.5rem 1fr;gap:1rem;padding:.95rem 0;border-bottom:1px solid var(--gray-line);font-size:.92rem}
+.c-alt .k{font-size:.7rem;letter-spacing:.13em;text-transform:uppercase;color:var(--gray-metal);padding-top:.25rem}
+.c-alt a{color:var(--blue-day);text-decoration:none;overflow-wrap:anywhere;border-bottom:1px solid transparent}
+.c-alt a:hover{border-bottom-color:var(--blue-day)}
+.form-card{background:#fff;border:1px solid var(--gray-line);padding:clamp(1.5rem,3vw,2.4rem)}
+.form-card h3{margin:0 0 .4rem;font-size:1.16rem}
+.form-card .sub{font-size:.87rem;color:var(--gray-metal);margin:0 0 1.6rem;line-height:1.55}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:.9rem 1rem}
+.fld{display:grid;gap:.4rem;min-width:0}
+.fld.f{grid-column:1/-1}
+.fld label{font-size:.74rem;letter-spacing:.07em;text-transform:uppercase;color:var(--gray-metal);font-weight:400}
+.fld label span{text-transform:none;letter-spacing:0;color:#8A9299}
+.fld input,.fld select,.fld textarea{font-family:var(--f);font-weight:300;font-size:.95rem;color:var(--ink);background:var(--warm-white);border:1px solid var(--gray-line);border-radius:0;padding:.8rem .9rem;width:100%;min-height:2.95rem;transition:border-color .2s,box-shadow .2s}
+.fld input:focus,.fld select:focus,.fld textarea:focus{outline:0;border-color:var(--blue-day);box-shadow:0 0 0 3px rgba(0,115,203,.14)}
+.fld textarea{resize:vertical;min-height:6.2rem}
+.form-note{font-size:.78rem;color:#7B838A;line-height:1.55;margin:1rem 0 0}
+.form-ok{border:1px solid #7FC08A;background:#F2FAF3;color:#1F6B31;padding:1rem 1.1rem;font-size:.92rem;line-height:1.55;margin-top:1rem}
+.form-err{border:1px solid #D98A8A;background:#FDF3F3;color:#8E2323;padding:1rem 1.1rem;font-size:.92rem;line-height:1.55;margin-top:1rem}
+@media(max-width:900px){
+  .c-grid{grid-template-columns:1fr}
+  .fgrid{grid-template-columns:1fr}
+}
+
+/* ---------- footer ---------- */
+.foot{background:#000;color:#9AA3AB;padding:3rem 0 2.4rem}
+.foot-in{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2.5rem}
+.foot img{height:40px;width:auto;margin-bottom:1.2rem}
+.foot p{font-size:.84rem;line-height:1.7;margin:0;max-width:38ch}
+.foot h4{font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:#fff;font-weight:400;margin:0 0 1rem}
+.foot li{margin-bottom:.55rem}
+.foot a{color:#9AA3AB;text-decoration:none;font-size:.86rem;border-bottom:1px solid transparent}
+.foot a:hover{color:#fff;border-bottom-color:var(--blue-day)}
+.foot-base{grid-column:1/-1;border-top:1px solid #1c1c1c;padding-top:1.4rem;font-size:.75rem;color:#6C757D;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+@media(max-width:820px){.foot-in{grid-template-columns:1fr}}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(12px);transition:opacity .6s ease,transform .6s ease}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .rv{opacity:1;transform:none;transition:none}
+  .btn:hover{transform:none}
+}
+</style>
+</head>
+<body>
+
+<a class="sr" href="#contenido">Saltar al contenido</a>
+
+<header class="site-head">
+  <div class="wrap head-in">
+    <a class="brand" href="#inicio" aria-label="Conde Graphics, inicio">
+      <img src="https://www.condegraphics.com/img/logo-conde-graphics-seo-agency.svg" alt="Conde Graphics" width="297" height="100">
+    </a>
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#modelo">Método</a>
+      <a href="#agencia">La agencia</a>
+      <a href="#faq">Preguntas</a>
+    </nav>
+    <a class="btn btn-primary head-cta" href="#contacto">Pedir diagnóstico</a>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio" aria-labelledby="h1">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-ov" aria-hidden="true"></div>
+    <div class="wrap hero-in">
+      <p class="eyebrow on-dark">Agencia SEO · Buenos Aires · Desde 1989</p>
+      <h1 id="h1">Que te encuentren primero.<em>Que te elijan después.</em></h1>
+      <p class="hero-lead">Trabajamos para que tu negocio aparezca cuando alguien busca lo que vendés —en Google, en Maps y en ChatGPT— y para que esa visita se convierta en una consulta.</p>
+      <p class="hero-note">Sin promesas de posición&nbsp;1. Con <strong>diagnóstico, plan y medición</strong>.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#contacto">Pedir mi diagnóstico <span class="ar" aria-hidden="true">→</span></a>
+        <a class="btn btn-outline-light" href="#modelo">Ver cómo trabajamos</a>
+      </div>
+    </div>
+    <div class="proof">
+      <div class="wrap">
+        <ul>
+          <li><b>37 años</b><span>De trayectoria continua</span></li>
+          <li><b>48 h</b><span>Diagnóstico de 12 puntos</span></li>
+          <li><b>24–48 h</b><span>Respuesta personal</span></li>
+          <li><b>3 frentes</b><span>SEO, Ads y Web</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROBLEMA ============ -->
+  <section class="sec sec-white" aria-labelledby="h2-prob">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div>
+          <p class="eyebrow">El problema</p>
+          <h2 id="h2-prob">Si tu web no genera consultas, no es un problema de diseño.</h2>
+        </div>
+        <p class="lead">Podés tener un sitio moderno, rápido y prolijo, y aun así no aparecer cuando alguien busca lo que vendés. O aparecer, pero no dar ninguna razón para que te escriba.</p>
+      </div>
+      <div class="prob-grid rv">
+        <article class="prob">
+          <span class="n">01</span>
+          <h3>Aparecés tarde</h3>
+          <p>Hay búsquedas con intención de compra todos los días en tu rubro. Si no estás en las primeras posiciones, esas consultas las responde otro.</p>
+        </article>
+        <article class="prob">
+          <span class="n">02</span>
+          <h3>Te encuentran y no te entienden</h3>
+          <p>Entrar y no saber qué hace la empresa, para quién trabaja o cuánto sale. La visita se va en ocho segundos y no vuelve.</p>
+        </article>
+        <article class="prob">
+          <span class="n">03</span>
+          <h3>Te leen y no te escriben</h3>
+          <p>Sin prueba, sin precio y sin próximo paso claro, el visitante tiene que adivinar. La mayoría no adivina: cierra la pestaña.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICIOS ============ -->
+  <section class="sec sec-pale" id="servicios" aria-labelledby="h2-svc">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div>
+          <p class="eyebrow">Qué hacemos</p>
+          <h2 id="h2-svc">Tres formas de que te encuentren. Una sola prioridad: que consulten.</h2>
+        </div>
+        <p class="lead">No vendemos las tres cosas a todos. Definimos cuál de los tres frentes mueve la aguja en tu negocio y empezamos por ahí.</p>
+      </div>
+
+      <div class="svc rv">
+        <article class="svc-card feat">
+          <span class="tag">01 · Eje principal</span>
+          <h3>SEO orgánico</h3>
+          <p>Aparecer cuando buscan lo que vendés, sin pagar por cada clic. Es el canal que más tarda y el único que queda.</p>
+          <ul>
+            <li>Auditoría técnica y arquitectura</li>
+            <li>Contenido por intención de búsqueda</li>
+            <li>Autoridad y enlaces</li>
+            <li>Medición y reporte mensual</li>
+          </ul>
+          <a class="link" href="#contacto">Consultar por SEO →</a>
+        </article>
+
+        <article class="svc-card">
+          <span class="tag">02 · Demanda activa</span>
+          <h3>Google Ads</h3>
+          <p>Demanda que ya existe hoy. Sirve cuando necesitás consultas este mes, no el próximo trimestre.</p>
+          <ul>
+            <li>Estructura de campañas y palabras</li>
+            <li>Anuncio conectado con la landing</li>
+            <li>Control de presupuesto y negativas</li>
+            <li>Informe de costo por consulta</li>
+          </ul>
+          <a class="link" href="#contacto">Consultar por campañas →</a>
+        </article>
+
+        <article class="svc-card">
+          <span class="tag">03 · Base de conversión</span>
+          <h3>Web que convierte</h3>
+          <p>Una web rápida que no solo se ve bien: ordena la decisión y lleva al próximo paso.</p>
+          <ul>
+            <li>HTML semántico y CSS moderno</li>
+            <li>Estructura de mensaje por página</li>
+            <li>Rendimiento y Core Web Vitals</li>
+            <li>Formulario y analítica</li>
+          </ul>
+          <a class="link" href="#contacto">Planificar mi web →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MODELO ============ -->
+  <section class="sec dark" id="modelo" aria-labelledby="h2-mod">
+    <div class="wrap">
+      <div class="mod">
+        <div class="rv">
+          <p class="eyebrow on-dark">El método</p>
+          <h2 id="h2-mod">Encontrar. Entender. Elegir.</h2>
+          <p class="lead">Es el recorrido que hace tu cliente antes de escribirte. Trabajamos las tres etapas, en ese orden, porque saltear una hace que las otras dos no sirvan.</p>
+
+          <div class="mod-steps">
+            <div class="mod-step">
+              <span class="k">01</span>
+              <div>
+                <h3>Encontrar</h3>
+                <p>Que aparezcas en la búsqueda que expresa una necesidad, no en la que solo informa.</p>
+              </div>
+            </div>
+            <div class="mod-step">
+              <span class="k">02</span>
+              <div>
+                <h3>Entender</h3>
+                <p>Que en cinco segundos quede claro qué vendés, para quién y por qué elegirte a vos.</p>
+              </div>
+            </div>
+            <div class="mod-step">
+              <span class="k">03</span>
+              <div>
+                <h3>Elegir</h3>
+                <p>Que la decisión sea fácil: prueba, precio y un próximo paso que no dé vergüenza dar.</p>
+              </div>
+            </div>
+          </div>
+
+          <p class="mod-close">Google, Maps y los motores de IA evalúan las mismas tres cosas. Por eso el mismo trabajo te deja visible en los tres: no hay un “servicio de IA” aparte.</p>
+        </div>
+
+        <div class="mod-media rv">
+          <img src="https://www.condegraphics.com/img/54251-optimized.jpg" alt="Búsqueda, datos y tecnología aplicada a la visibilidad de un negocio" loading="lazy" width="900" height="1125">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ AUTORIDAD ============ -->
+  <section class="sec sec-white" id="agencia" aria-labelledby="h2-ag">
+    <div class="wrap">
+      <div class="auth-grid">
+        <div class="rv">
+          <p class="eyebrow">Por qué nosotros</p>
+          <h2 id="h2-ag">Desde 1989. Cuando el SEO todavía no existía.</h2>
+          <p class="lead" style="margin-top:1.2rem">Empezamos haciendo identidad y comunicación gráfica en mayo de 1989. Pasamos la gráfica, la web 1.0, el mobile, las redes y ahora la búsqueda con IA. No es una anécdota: es la razón por la que no vendemos la moda de turno.</p>
+
+          <div class="stats">
+            <div class="stat"><b>1989</b><span>Fundada en Buenos Aires</span></div>
+            <div class="stat"><b>37</b><span>Años de trayectoria continua</span></div>
+            <div class="stat"><b>24–48 h</b><span>Respuesta de una persona, no de un bot</span></div>
+            <div class="stat"><b>1</b><span>Responsable de tu proyecto, de punta a punta</span></div>
+          </div>
+        </div>
+
+        <aside class="quote rv">
+          <p>“No prometemos la posición 1. Prometemos decirte la verdad sobre tu punto de partida.”</p>
+          <cite>
+            <b>Manuel Conde</b>
+            Conde Graphics · Buenos Aires
+          </cite>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESO ============ -->
+  <section class="sec sec-ice" aria-labelledby="h2-proc">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div>
+          <p class="eyebrow">Cómo trabajamos</p>
+          <h2 id="h2-proc">Sabés qué pasa en cada etapa. Y cuánto tarda.</h2>
+        </div>
+        <p class="lead">Nada de “te mandamos el plan la semana que viene”. Cada etapa tiene un entregable y un plazo que podés reclamar.</p>
+      </div>
+
+      <ol class="proc rv">
+        <li>
+          <span class="num">01</span>
+          <div>
+            <h3>Diagnóstico</h3>
+            <p>Analizamos tu punto de partida: técnica, contenido, competencia y conversión. Te decimos dónde estás parado.</p>
+          </div>
+          <span class="when">48 horas</span>
+        </li>
+        <li>
+          <span class="num">02</span>
+          <div>
+            <h3>Plan</h3>
+            <p>Priorizamos por impacto y esfuerzo. Qué hacemos primero, qué queda para después y qué no vale la pena.</p>
+          </div>
+          <span class="when">Semana 1</span>
+        </li>
+        <li>
+          <span class="num">03</span>
+          <div>
+            <h3>Implementación</h3>
+            <p>Ejecutamos: arquitectura, contenido, campañas, web. Con acceso a todo lo que hacemos, sin cajas negras.</p>
+          </div>
+          <span class="when">Mes 1 a 3</span>
+        </li>
+        <li>
+          <span class="num">04</span>
+          <div>
+            <h3>Medición</h3>
+            <p>Reporte mensual con lo que se movió, lo que no y por qué. Ajustamos sobre datos, no sobre opiniones.</p>
+          </div>
+          <span class="when">Todos los meses</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ OFERTA ============ -->
+  <section class="sec sec-white" id="oferta" aria-labelledby="h2-of">
+    <div class="wrap">
+      <div class="offer rv">
+        <div>
+          <p class="eyebrow on-dark">Empezá por acá</p>
+          <h2 id="h2-of">El diagnóstico de 12 puntos. En 48 horas, sin cargo.</h2>
+          <p class="lead">No es un presupuesto disfrazado. Es un documento con tu punto de partida y las tres acciones de mayor impacto, ordenadas por esfuerzo.</p>
+          <span class="price">Sin costo · Sin compromiso</span>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#contacto">Pedir mi diagnóstico <span class="ar" aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <div>
+          <ul class="deliv">
+            <li><b>Posiciones reales</b> de tus 10 búsquedas más valiosas.</li>
+            <li><b>Auditoría técnica</b> de los 12 puntos que frenan la indexación.</li>
+            <li><b>Competencia directa</b>: quién te gana esa búsqueda y por qué.</li>
+            <li><b>Presencia en IA</b>: si ChatGPT o Gemini te mencionan cuando preguntan por tu rubro.</li>
+            <li><b>Tres acciones priorizadas</b> por impacto y esfuerzo.</li>
+          </ul>
+        </div>
+
+        <p class="offer-foot"><strong>Si vemos que el SEO no le sirve a tu negocio, te lo decimos y no te vendemos nada.</strong> Preferimos perder una venta a perder la reputación que nos costó 37 años construir.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="sec sec-pale" id="faq" aria-labelledby="h2-faq">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div>
+          <p class="eyebrow">Preguntas frecuentes</p>
+          <h2 id="h2-faq">Lo que frena la decisión.</h2>
+        </div>
+        <p class="lead">Las preguntas que de verdad aparecen antes de contratar. Si la tuya no está, escribila en el formulario y la respondo yo.</p>
+      </div>
+
+      <div class="faq rv">
+        <details>
+          <summary>¿Cuánto sale trabajar con ustedes?</summary>
+          <div class="a"><p>Depende del punto de partida y del frente que haya que mover, por eso no publicamos un precio único: dos negocios con el mismo rubro pueden necesitar cosas muy distintas.</p><p>Lo que sí te garantizamos es que el número te lo decimos <strong>después del diagnóstico y antes de firmar</strong>, por escrito, y sin paquete sorpresa.</p></div>
+        </details>
+        <details>
+          <summary>¿Me atan con un contrato de un año?</summary>
+          <div class="a"><p>No. Trabajamos mes a mes. El SEO necesita tiempo, pero un contrato largo no es la forma de demostrarlo: los resultados lo demuestran.</p></div>
+        </details>
+        <details>
+          <summary>¿En cuánto tiempo veo resultados?</summary>
+          <div class="a"><p>En Google Ads, semanas. En SEO, entre 3 y 6 meses para ver movimiento sostenido, según competencia y estado del sitio. Cualquiera que te prometa menos está adivinando.</p></div>
+        </details>
+        <details>
+          <summary>¿Garantizan la posición 1 en Google?</summary>
+          <div class="a"><p>No, y desconfiá de quien lo haga. Google no vende posiciones. Lo que sí garantizamos es el trabajo: diagnóstico, implementación documentada y medición transparente.</p></div>
+        </details>
+        <details>
+          <summary>¿El SEO para IA es un servicio aparte?</summary>
+          <div class="a"><p>No. Los motores de IA leen la misma estructura, la misma autoridad y el mismo contenido que Google. Un sitio bien construido queda bien preparado para ambos. Si alguien te vende “GEO” como un módulo separado, preguntá qué cambia del SEO normal.</p></div>
+        </details>
+        <details>
+          <summary>¿Quién atiende mi proyecto?</summary>
+          <div class="a"><p>Manuel Conde recibe la consulta, analiza el proyecto y responde en 24 a 48 horas. Durante el trabajo tenés un responsable único, no un ticket de soporte.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section class="sec contact" id="contacto" aria-labelledby="h2-ct">
+    <div class="wrap">
+      <div class="c-grid">
+        <div class="rv">
+          <p class="eyebrow">Hablemos</p>
+          <h2 id="h2-ct">Contame qué vendés. Te digo si el SEO te sirve.</h2>
+          <p class="lead" style="margin-top:1.2rem">No todo el mundo necesita SEO. Si tu negocio crece por recomendación, por local a la calle o por otro canal, te lo voy a decir antes de venderte nada.</p>
+
+          <ul class="c-alt">
+            <li><span class="k">WhatsApp</span><a href="https://wa.me/5491167282822?text=Hola%20Manuel%2C%20quiero%20pedir%20el%20diagn%C3%B3stico%20de%2012%20puntos." target="_blank" rel="noopener">+54 9 11 6728-2822</a></li>
+            <li><span class="k">Email</span><a href="mailto:info@condegraphics.com">info@condegraphics.com</a></li>
+            <li><span class="k">Estudio</span><a href="https://maps.google.com/?q=Olaz%C3%A1bal+2715+C1428DHJ+Buenos+Aires" target="_blank" rel="noopener">Olazábal 2715 · C1428DHJ · Buenos Aires</a></li>
+          </ul>
+        </div>
+
+        <div class="form-card rv">
+          <h3>Pedir el diagnóstico de 12 puntos</h3>
+          <p class="sub">Te respondo personalmente en 24 a 48 horas hábiles con la primera lectura de tu caso.</p>
+
+          <form class="contact-form" id="contact-form" action="https://www.condegraphics.com/contact.php" method="POST">
+            <input type="checkbox" name="botcheck" class="sr" style="display:none" tabindex="-1" autocomplete="off">
+            <div class="fgrid">
+              <div class="fld"><label for="name">Nombre y apellido</label><input id="name" name="name" type="text" autocomplete="name" required></div>
+              <div class="fld"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+              <div class="fld"><label for="phone">Teléfono</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
+              <div class="fld"><label for="website">Página web <span>(opcional)</span></label><input id="website" name="website" type="text" autocomplete="url" inputmode="url" placeholder="www.ejemplo.com"></div>
+              <div class="fld f"><label for="budget">¿Cuál es tu presupuesto actual de marketing?</label>
+                <select id="budget" name="budget" required>
+                  <option value="" selected disabled>Seleccioná</option>
+                  <option>Menos de 600 USD</option>
+                  <option>Entre 600 y 1.200 USD</option>
+                  <option>Entre 1.200 y 2.000 USD</option>
+                  <option>Entre 2.000 y 5.000 USD</option>
+                  <option>Más de 5.000 USD</option>
+                </select>
+              </div>
+              <div class="fld f"><label for="message">Contame brevemente tu proyecto</label><textarea id="message" name="message" rows="4" required placeholder="Qué vendés, a quién y qué querés lograr."></textarea></div>
+            </div>
+            <div class="cf-turnstile" data-sitekey="0x4AAAAAAE-8vP0SYcEDAPU6" data-action="contact" data-appearance="interaction-only" data-language="es" aria-label="Verificación de seguridad" style="margin-top:1rem"></div>
+            <div class="cta-row" style="margin-top:1.4rem">
+              <button class="btn btn-primary" type="submit" style="width:100%">Enviar y pedir el diagnóstico</button>
+            </div>
+            <p class="form-note">Sin costo y sin compromiso. No compartimos tus datos con terceros.</p>
+            <div id="form-msg" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <img src="https://www.condegraphics.com/img/logo-conde-graphics-seo-agency.svg" alt="Conde Graphics" width="297" height="100">
+      <p>Agencia SEO en Buenos Aires desde 1989. Trabajamos para que te encuentren primero y te elijan después.</p>
+    </div>
+    <div>
+      <h4>Servicios</h4>
+      <ul>
+        <li><a href="#servicios">SEO orgánico</a></li>
+        <li><a href="#servicios">Google Ads</a></li>
+        <li><a href="#servicios">Web que convierte</a></li>
+        <li><a href="#oferta">Diagnóstico de 12 puntos</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <ul>
+        <li><a href="https://wa.me/5491167282822" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="mailto:info@condegraphics.com">info@condegraphics.com</a></li>
+        <li><a href="#contacto">Formulario</a></li>
+      </ul>
+    </div>
+    <div class="foot-base">
+      <span>© 2026 Conde Graphics · Olazábal 2715, C1428DHJ · Buenos Aires</span>
+      <span>No garantizamos posiciones ni resultados específicos. Sí garantizamos el trabajo.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script>
+(function(){
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var items = document.querySelectorAll('.rv');
+  if (reduce || !('IntersectionObserver' in window)) {
+    items.forEach(function(el){ el.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { rootMargin: '0px 0px -6% 0px', threshold: 0.06 });
+    items.forEach(function(el){ io.observe(el); });
+  }
+
+  var form = document.getElementById('contact-form');
+  if (!form) return;
+  var msg = document.getElementById('form-msg');
+  var btn = form.querySelector('button[type="submit"]');
+
+  form.addEventListener('submit', function(ev){
+    ev.preventDefault();
+    if (btn) { btn.disabled = true; btn.textContent = 'Enviando…'; }
+    msg.className = ''; msg.textContent = '';
+
+    fetch(form.action, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' } })
+      .then(function(r){ return r.json().catch(function(){ return { ok: r.ok }; }); })
+      .then(function(data){
+        var ok = data && (data.ok === true || data.success === true || data.status === 'success');
+        if (ok) {
+          form.reset();
+          msg.className = 'form-ok';
+          msg.textContent = 'Listo. Recibí tu consulta y te respondo en 24 a 48 horas hábiles. — Manuel';
+        } else {
+          msg.className = 'form-err';
+          msg.textContent = (data && data.message ? data.message : 'No pudimos enviar el formulario.') +
+            ' Si preferís, escribinos por WhatsApp al +54 9 11 6728-2822.';
+        }
+      })
+      .catch(function(){
+        msg.className = 'form-err';
+        msg.textContent = 'No pudimos enviar el formulario. Escribinos por WhatsApp al +54 9 11 6728-2822 y lo resolvemos.';
+      })
+      .finally(function(){
+        if (btn) { btn.disabled = false; btn.textContent = 'Enviar y pedir el diagnóstico'; }
+      });
+  });
+})();
+</script>
+</body>
+</html>
